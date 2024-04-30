@@ -1,0 +1,107 @@
+.contact-me-container {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  height:80vh;
+  /* background-color: green; */
+}
+
+.contact-me-container>h1 {
+  color: var(--light-brand);
+  font-size: 50px;
+  text-shadow: 0px 0px 3px black;
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--light-brand);
+  width: 320px;
+  padding-left: 30px;
+}
+
+.contact-details {
+  display: flex;
+  flex-grow: 1;
+}
+
+
+.info-div {
+  width: 50%;
+  /* background-color: gray; */
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--light-brand);
+}
+
+.icon-div {
+  /* background-color: blue; */
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--orange-brand);
+  border-radius: 1000px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.icon-div> :only-child {
+  font-size: 40px;
+  /* color: var(--orange-brand); */
+
+}
+
+.text-div {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text-div>p {
+  color: var(--orange-brand);
+}
+
+.info {
+  display: flex;
+  flex-grow: 1;
+  /* background-color: red; */
+}
+
+
+
+
+.my-picture-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-picture-container>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border: 5px solid var(--orange-brand);
+  overflow: hidden;
+  transform: rotate(45deg);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.my-picture-container>div>img {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  transform: rotate(-45deg);
+}
+
+
+.go-to-whatsapp{
+  cursor: pointer ;
+}

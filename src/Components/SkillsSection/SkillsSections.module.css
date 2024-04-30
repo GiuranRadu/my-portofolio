@@ -1,0 +1,72 @@
+.skills-container {
+  padding: 20px 100px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container>h1 {
+  color: var(--grey-brand);
+  font-size: 50px;
+  text-shadow: 0px 0px 3px black;
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--grey-brand);  
+  width: 200px; 
+  padding-left: 30px;
+}
+
+
+.frontend-skills {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  width: 100%;
+}
+
+.frontend-skills>div {
+  display: flex;
+}
+.frontend-skills>h1,
+.backend-skills>h1{
+  color: var(--grey-brand);
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  /* background-color: yellow; */
+}
+
+.skill>img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.skill>p {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+.backend-skills {
+  height: 30%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+
+}
+
+.backend-skills>div {
+  display: flex;
+}
