@@ -59,7 +59,7 @@ function HeroSection() {
 
           <div>
             <p> &gt; Radu.backendSkills</p>
-            <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;MongoDB&#34; ,  &#34;Git&#34; , &#34;Firebase&#34; , &#34;Cloundinary&#34;]</span>
+            <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;MongoDB&#34; ,  &#34;Git&#34; , &#34;Firebase&#34; , &#34;Cloudinary&#34;]</span>
           </div>
 
           <div className={styles['flicker']}>

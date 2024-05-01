@@ -40,7 +40,7 @@ const backendLogos = [
   { pic: mongoDB_logo, name: "MongoDB" },
   { pic: postman_logo, name: "Postman" },
   { pic: firebase_logo, name: "Firebase" },
-  { pic: cloudinary_logo, name: "Cloundinary" },
+  { pic: cloudinary_logo, name: "Cloudinary" },
   { pic: git_logo, name: "Git" },
 ]
 
