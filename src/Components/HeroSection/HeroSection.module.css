@@ -207,7 +207,7 @@
 
   .laptop-div {
     height: fit-content;
-    bottom: -100px
+    bottom: -120px
   }
 
   .photo-div {
@@ -259,8 +259,6 @@
   .laptop-screen>div>span {
     font-size: 12px;
   }
-
-
   
 }
 
@@ -295,6 +293,7 @@
 
   .laptop-screen {
     gap: 20px;
+    padding: 20px 25px;
   }
 }
 
