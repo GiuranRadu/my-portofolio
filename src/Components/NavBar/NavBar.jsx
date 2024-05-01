@@ -9,7 +9,11 @@ const Navbar = () => {
     <div className='header'>
       <nav className='navbar'>
         <div className='logo-div'>
-          <img src={my_logo_pic} alt="my logo" />
+
+          <Link to="section1" spy={true} smooth={true} offset={-70} duration={1000}>
+            <img src={my_logo_pic} alt="my logo" />
+          </Link>
+
         </div>
         <ul className="nav-menu">
           <li className='nav-item'>

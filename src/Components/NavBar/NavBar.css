@@ -24,16 +24,19 @@
 
 .header .navbar .logo-div {
   /* background-color: blue; */
+  height: 100%; 
+}
+
+.header .navbar .logo-div>a {
   height: 100%;
-  width: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header .navbar .logo-div>img {
-  height: 80%;
-  width: 100px;
+.header .navbar .logo-div>a>img {
+  height: 70%;
+  width: 80px;
 }
 
 .header .nav-menu {
