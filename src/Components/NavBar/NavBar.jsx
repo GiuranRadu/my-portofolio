@@ -1,5 +1,6 @@
 import './NavBar.css'
 import { Link } from 'react-scroll'
+import my_logo_pic from '../../assets/my-logo.png'
 
 const Navbar = () => {
 
@@ -7,7 +8,9 @@ const Navbar = () => {
   return (
     <div className='header'>
       <nav className='navbar'>
-
+        <div className='logo-div'>
+          <img src={my_logo_pic} alt="my logo" />
+        </div>
         <ul className="nav-menu">
           <li className='nav-item'>
             <Link to="section1" spy={true} smooth={true} offset={-70} duration={1000}>Info</Link>
