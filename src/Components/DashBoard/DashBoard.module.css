@@ -43,3 +43,9 @@
   background-size: cover;
 }
 
+
+@media(min-width: 1900px) {
+  .section2 {
+    height: calc(190vh + 70px);
+  }
+}
