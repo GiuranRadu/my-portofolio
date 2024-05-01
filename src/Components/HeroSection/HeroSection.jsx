@@ -10,7 +10,7 @@ import Tilt from 'react-parallax-tilt'
 
 function HeroSection() {
   return (
-    <>
+    <div className={styles['hero-container']}>    
       <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5}>
         <div className={styles['hero-div']} >
           <div className={styles['photo-div']}>
@@ -70,7 +70,7 @@ function HeroSection() {
       </div>
 
 
-    </>
+    </div>
   )
 }
 

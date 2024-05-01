@@ -20,7 +20,11 @@ function ContactMe() {
       <div className={styles['contact-details']}>
         <div className={styles['info-div']}>
           <div className={styles['info']}>
-            <div className={styles['icon-div']}><MdOutlineEmail /></div>
+            <div className={styles['icon-div']}>
+              <span>
+                <MdOutlineEmail />
+              </span>
+            </div>
             <div className={styles['text-div']}>
               <h1>Email</h1>
               <p>giuran.radu@yahoo.com</p>
@@ -28,7 +32,11 @@ function ContactMe() {
           </div>
 
           <div className={styles['info']}>
-            <div className={styles['icon-div']}><MdOutlineLocalPhone /></div>
+            <div className={styles['icon-div']}>
+              <span>
+                <MdOutlineLocalPhone />
+              </span>
+            </div>
             <div className={styles['text-div']}>
               <h1>Phone</h1>
               <p>+40 722 751 363</p>
@@ -37,7 +45,11 @@ function ContactMe() {
 
 
           <div className={styles['info']}>
-            <div className={styles['icon-div']}><IoLogoWhatsapp /></div>
+            <div className={styles['icon-div']}>
+              <span>
+                <IoLogoWhatsapp />
+              </span>
+            </div>
             <div className={styles['text-div']}>
               <h1>Whatsapp</h1>
               <p onClick={goToWhatsapp} className={styles['go-to-whatsapp']}>Click me <FaExternalLinkAlt /></p>
