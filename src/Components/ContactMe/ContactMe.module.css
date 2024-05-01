@@ -46,7 +46,6 @@
 
 .icon-div>span {
   font-size: 40px;
-
 }
 
 .text-div {
@@ -104,3 +103,77 @@
 }
 
 
+@media(max-width:1100px) {
+  .contact-me-container {
+    padding: 40px 20px;   
+  }
+
+  .my-picture-container {
+    display: none;
+  }
+
+  .contact-details{
+    width: 100%;
+    justify-content: center;
+  }
+  
+}
+
+
+@media(max-width:900px) {
+  .contact-me-container {
+    padding: 50px ;    
+  }
+
+
+  .contact-me-container>h1 {
+    font-size: 35px;
+    width: fit-content;
+    padding-left: 0px;
+  }
+
+  .info-div {
+    width: 100%;
+  }
+
+  
+.text-div {
+  margin-left: 30px;
+ 
+}
+}
+
+
+@media(max-width:500px) {
+
+  .contact-me-container{
+    padding: 20px 0;
+
+  }
+
+  .contact-me-container>h1 {
+    margin-left: 20px;
+    width: fit-content;
+  }
+
+  .info{
+    width: 80%;
+    align-items: center;
+    margin:0 auto;
+  }
+
+
+  .info-div {
+    padding: 0;
+  }
+
+  .icon-div {
+    min-width: 50px;
+    height: 50px;    
+    border: 2px solid var(--orange-brand);    
+  }
+
+  .icon-div>span {
+    font-size: 18px;
+  }
+}

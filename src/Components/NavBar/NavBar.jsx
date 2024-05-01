@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link to="section3" spy={true} smooth={true} offset={-70} duration={1000}>Skills</Link>
           </li>         
           <li className='nav-item'>
-            <Link to="section4" spy={true} smooth={true} offset={-69} duration={1000}>Contact</Link>
+            <Link to="section4" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link>
           </li>
         </ul>
       </nav>

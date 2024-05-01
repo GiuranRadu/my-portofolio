@@ -1,6 +1,6 @@
 /** SECTION 1 **/
 
-.hero-container{
+.hero-container {
   padding: 0;
 }
 
@@ -90,13 +90,12 @@
 }
 
 .platforms-div>span:nth-child(3):hover {
-  color: #3498DB  ;
- 
+  color: #3498DB;
+
 }
 
 .platforms-div>span:nth-child(4):hover {
   color: #25D366
-
 }
 
 
@@ -169,7 +168,7 @@
   font-size: 25px;
 }
 
-.flicker>span{
+.flicker>span {
   width: 15px;
   background-color: var(--orange-brand);
 }
@@ -191,12 +190,112 @@
 
 @media(min-width: 1850px) {
 
-  .hero-container{
+  .hero-container {
     padding-top: 30px;
   }
- 
-
-  .laptop-div {    
-    bottom:130px;  
+  .laptop-div {
+    bottom: -100px
   }
 }
+
+@media(max-width:1000px) {
+
+  .hero-div,
+  .laptop-div {
+    width: 700px;
+  }
+
+  .laptop-div {
+    height: fit-content;
+    bottom: -100px
+  }
+
+  .photo-div {
+    height: 140px;
+    width: 140px;
+  }
+
+  .description>h3 {
+    font-size: 15px;
+  }
+
+  .description>h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media(max-width:760px) {
+
+  .hero-div,
+  .laptop-div {
+    width: 90vw;
+  }
+
+  .description>h2 {
+    word-spacing: 5px;
+  }
+
+  .hero-div {
+    position: relative;
+  }
+
+  .photo-div {
+    height: 14vw;
+    width: 14vw;
+    position: absolute;
+    bottom: 30px;
+    left: 30px
+  }  
+
+  .three-dots {
+    height: 25px;
+  }
+
+  .laptop-screen>div>p {
+    font-size: 14px;
+  }
+
+  .laptop-screen>div>span {
+    font-size: 12px;
+  }
+
+
+  
+}
+
+
+@media(max-width:450px) {
+  .hero-div {
+    padding: 20px 0px;
+  }
+
+  .photo-div {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .platforms-div {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: fit-content;
+    gap: 10px;
+  }
+
+  .description>h3 {
+    font-size: 10px;
+  }
+
+  .description>h2 {
+    font-size: 15px;
+  }
+
+
+  .laptop-screen {
+    gap: 20px;
+  }
+}
+
+

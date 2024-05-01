@@ -61,7 +61,6 @@ function ProjectsSection() {
               <span>ExpressJS</span>
               <span>MongoDB</span>
             </div>
-
           </div>
           <div className={styles['buttons-div']}>
             <button className={styles['live-demo-btn']}> <a href="https://ur-physique.netlify.app/" target="_blank">Live Demo <FaExternalLinkAlt /></a> </button>

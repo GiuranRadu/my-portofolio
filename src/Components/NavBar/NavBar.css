@@ -71,3 +71,43 @@
   padding-bottom: 12px;
   border-bottom: 3px solid var(--light-brand);
 }
+
+
+@media(max-width:900px) {
+  .header {  
+    padding:0 50px;
+  }
+}
+
+
+@media(max-width:700px) {
+  .header .navbar .logo-div>a>img {
+    height: 50%;
+    width: 50px;
+  }
+
+  .header .nav-menu {
+    gap: 20px;
+  }
+
+  .header .nav-item a {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
+
+
+@media(max-width:490px) {
+  .header {  
+    padding:0 20px;
+  }
+
+  .header .nav-menu {
+    gap: 10px;
+  }
+
+  .header .nav-item a {
+    padding: 4px;
+    font-size: 12px;
+  }
+}
