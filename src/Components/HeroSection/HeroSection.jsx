@@ -17,7 +17,7 @@ function HeroSection() {
             <img src={myPhoto} alt="my photo" />
           </div>
           <div className={styles['description']}>
-            <h3> <FaRegHandPeace />  Hello, I&apos;m Radu. I&apos;m a fullstack developer</h3>
+            <h3> <FaRegHandPeace />  Hello, I&apos;m Radu. I&apos;m a Full-Stack Developer</h3>
             <h2> Passionate | Organized | Analytical</h2>
             <h3>Check out my projects below</h3>
             <div className={styles['platforms-div']}>

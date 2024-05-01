@@ -25,21 +25,21 @@
 
 /** SECTION 2 **/
 .section2 {
-  height: calc(260vh + 70px);
+  height: calc(270vh + 70px);
 }
 
 
 /** SECTION 3 **/
 .section3 {
   min-height: calc(90vh + 70px);
-
 }
 
 
 /** SECTION 4 **/
 .section4 {
-  min-height: calc(90vh + 5px);
+  min-height: calc(100vh - 69px);
   background-image: url('../../assets/Screenshot 2024-04-29 130407.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
