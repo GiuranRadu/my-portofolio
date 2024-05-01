@@ -22,8 +22,6 @@ function DashBoard() {
         </section>
         <section id="section4" className={styles.section4}>
           <ContactMe />
-          {/* <img src={blob_pic} alt="" /> */}
-
         </section>
       </div>
     </>
