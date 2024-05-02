@@ -1,5 +1,4 @@
 /** SECTION 1 **/
-
 .hero-container {
   padding: 0;
 }
@@ -91,19 +90,20 @@
 
 .platforms-div>span:nth-child(3):hover {
   color: #3498DB;
-
 }
 
 .platforms-div>span:nth-child(4):hover {
   color: #25D366
+}
+.platforms-div>span:nth-child(5):hover {
+  color: #e06969;
 }
 
 
 .laptop-div {
   height: 450px;
   width: 900px;
-  bottom: -140px;
-  position: absolute;
+  margin-top: 60px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
@@ -137,6 +137,8 @@
   background-color: #00ca4e;
   color: #00ca4e;
 }
+
+
 
 .laptop-screen {
   height: 91%;
@@ -189,17 +191,12 @@
 
 
 @media(min-width: 1850px) {
-
   .hero-container {
     padding-top: 30px;
-  }
-  .laptop-div {
-    bottom: 100px
   }
 }
 
 @media(max-width:1000px) {
-
   .hero-div,
   .laptop-div {
     width: 700px;
@@ -207,7 +204,6 @@
 
   .laptop-div {
     height: fit-content;
-    bottom: -120px
   }
 
   .photo-div {
@@ -226,6 +222,17 @@
 
 
 @media(max-width:760px) {
+  .platforms-div {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: fit-content;
+    gap: 15px;
+  }
+
+  .platforms-div>span {
+    font-size: 22px;    
+  }
 
   .hero-div,
   .laptop-div {
@@ -246,7 +253,7 @@
     position: absolute;
     bottom: 30px;
     left: 30px
-  }  
+  }
 
   .three-dots {
     height: 25px;
@@ -259,27 +266,23 @@
   .laptop-screen>div>span {
     font-size: 12px;
   }
-  
+}
+
+@media(max-width:500px) {
+  .laptop-div {
+    margin-top: 20px;
+  }
 }
 
 
 @media(max-width:450px) {
   .hero-div {
-    padding: 20px 0px;
+    padding: 40px 0px;
   }
 
   .photo-div {
     height: 70px;
     width: 70px;
-
-  }
-
-  .platforms-div {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    height: fit-content;
-    gap: 10px;
   }
 
   .description>h3 {
@@ -290,11 +293,8 @@
     font-size: 15px;
   }
 
-
   .laptop-screen {
     gap: 20px;
     padding: 20px 25px;
   }
 }
-
-

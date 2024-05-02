@@ -4,11 +4,17 @@ import { FaFacebook } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaRegHandPeace } from "react-icons/fa6";
+import { TbFileCv } from "react-icons/tb";
 import myPhoto from '../../assets/myPhoto.jpg'
 import Tilt from 'react-parallax-tilt'
 
+import resume from '../../assets/LinkedinCV.pdf'
+
 
 function HeroSection() {
+
+ 
+
   return (
     <div className={styles['hero-container']}>    
       <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5}>
@@ -25,6 +31,7 @@ function HeroSection() {
               <span> <a href="https://www.facebook.com/Giuran/" target="_blank"><FaFacebook /></a> </span>
               <span> <a href="https://discord.com/channels/giuran.radu#5167" target="_blank"><FaDiscord /></a> </span>
               <span> <a href="https://wa.me/+40722751363" target="_blank">< FaWhatsapp /></a> </span>
+              <span> <a href={resume} download='cv-giuran-radu' ><TbFileCv /></a> </span>
             </div>
           </div>
         </div>

@@ -54,6 +54,7 @@
 .skill>p {
   font-size: 10px;
   font-weight: 600;
+  text-align: center;
 }
 
 
@@ -79,12 +80,12 @@
   }
 
   .skill {
-    width: 80px;
+    width: 75px;
   }
 
   .skill>img {
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     margin-bottom: 10px;
   }
 
@@ -107,7 +108,7 @@
 }
 
 @media(max-width:900px) {
-  
+
   .skills-container {
     padding: 20px 50px;
   }
@@ -118,7 +119,6 @@
     padding-left: 0px;
   }
 
-
 }
 
 
@@ -126,8 +126,7 @@
 
   .frontend-skills {
     padding: 0;
-    margin: 20px 0 20px 0;
-    height: fit-content;
+    margin: 20px 0 ;
   }
 
   .backend-skills {
@@ -157,9 +156,32 @@
 @media(max-width:500px) {
 
   .skills-container {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
+  .skill {
+    width: 50px;
+  }
+
+  .skill>img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+
+
+  .frontend-skills {
+    padding: 0;
+    margin: 0px 0 20px 0;
+    height: fit-content;
+  }
+
+  .backend-skills {
+    padding: 0;
+    margin: 20px 0 0px 0;
+    height: fit-content;
+  }
 
   .skills-container>h1 {
     margin-left: 20px;
@@ -168,7 +190,7 @@
 
 
   .frontend-skills>div {
-    width: 300px;
+    width: 280px;
     gap: 10px;
   }
 

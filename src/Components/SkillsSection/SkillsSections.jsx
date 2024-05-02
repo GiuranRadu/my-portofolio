@@ -9,6 +9,7 @@ import angular_logo from '../../assets/Tech logos/angular1.png'
 import react_logo from '../../assets/Tech logos/react3.png'
 import react_router_logo from '../../assets/Tech logos/react-router2.png'
 import redux_logo from '../../assets/Tech logos/redux.png'
+import rxjs_logo from '../../assets/Tech logos/rxjs.png'
 
 import nodeJs_logo from '../../assets/Tech logos/nodejs2.png'
 import expressJs_logo from '../../assets/Tech logos/expressJS.png'
@@ -28,6 +29,7 @@ const frontendLogos = [
   { pic: scss_logo, name: "Scss" },
   { pic: tailwind_logo, name: "Tailwind" },
   { pic: angular_logo, name: "Angular" },
+  { pic: rxjs_logo, name: "RxJs" },
   { pic: typescript_logo, name: "TypeScript" },
   { pic: react_logo, name: "React" },
   { pic: react_router_logo, name: "React Router" },
