@@ -50,8 +50,9 @@
 
 @media(min-width: 1850px) {
   .section2 {
-    height: calc(190vh + 70px);
+    height: fit-content
   }
+  
 }
 
 @media(max-width:900px) {
@@ -62,11 +63,15 @@
 
 
 @media(max-width:500px) {
- .section1{
-  padding: 20px 0;
- }
+  .section1 {
+    padding: 20px 0;
+  }
 
- .section2{
-  padding-top: 30px;
- }
+  .section2 {
+    padding-top: 30px;
+  }
+
+  .section3 {
+    height: fit-content;
+  }
 }
