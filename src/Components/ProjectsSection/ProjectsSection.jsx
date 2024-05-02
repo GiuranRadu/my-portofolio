@@ -9,8 +9,8 @@ import z_animals_pc_pic from '../../assets/Z-Animals mockups/z-animals-front.png
 import z_animals_phone_pic from '../../assets/Z-Animals mockups/z-animals-portrait.png'
 import x_games_pc_pic from '../../assets/X-Games mockups/x-games-front.png'
 import x_games_phone_pic from '../../assets/X-Games mockups/x-games-portrait.png'
-import react_logo from '../../assets/react3.png'
-import angular_logo from '../../assets/angular1.png'
+import react_logo from '../../assets/react.png'
+import angular_logo from '../../assets/angular.png'
 
 function ProjectsSection() {
 

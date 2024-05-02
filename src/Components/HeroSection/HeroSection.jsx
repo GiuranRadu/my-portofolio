@@ -8,7 +8,7 @@ import { TbFileCv } from "react-icons/tb";
 import myPhoto from '../../assets/myPhoto.jpg'
 import Tilt from 'react-parallax-tilt'
 
-import resume from '../../assets/Radu Cv.pdf'
+import resume from '../../assets/RaduCV.pdf'
 
 
 function HeroSection() {
