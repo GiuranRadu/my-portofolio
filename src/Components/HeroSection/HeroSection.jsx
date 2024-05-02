@@ -8,12 +8,10 @@ import { TbFileCv } from "react-icons/tb";
 import myPhoto from '../../assets/myPhoto.jpg'
 import Tilt from 'react-parallax-tilt'
 
-import resume from '../../assets/LinkedinCV.pdf'
+import resume from '../../assets/Radu Cv.pdf'
 
 
 function HeroSection() {
-
- 
 
   return (
     <div className={styles['hero-container']}>    
