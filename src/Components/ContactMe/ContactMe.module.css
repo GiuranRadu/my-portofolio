@@ -1,9 +1,10 @@
 .contact-me-container {
-  padding: 40px 100px;
+  padding: 40px 100px 150px 100px;
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  /* background-color: green; */
+  min-height: inherit ;
+  height: fit-content;
+  
 }
 
 .contact-me-container>h1 {
@@ -24,7 +25,6 @@
 
 .info-div {
   width: 50%;
-  /* background-color: gray; */
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
