@@ -1,5 +1,5 @@
 .projects-div {
-  padding: 100px 100px 0px 100px;
+  padding: 20px 100px 0px 100px;
 }
 
 .projects-div>h1 {
@@ -177,7 +177,7 @@
 
 @media(max-width:900px) {
   .projects-div {
-    padding: 120px 50px 0px 50px;
+    padding: 50px 50px 0px 50px;
     height: fit-content;
   }
 
@@ -207,9 +207,6 @@
     width: 120px;
     padding: 8px 10px;
   }
-
-
-
 }
 
 
@@ -257,7 +254,7 @@
 @media(max-width:500px) {
 
   .projects-div {
-    padding: 100px 0 0 0;
+    padding: 10px 0 0 0;
   }
 
   .projects-div>h1 {
