@@ -1,5 +1,5 @@
 .dashboard-container {
-  padding: 60px 0 0 0;
+  /* padding: 70px 0 0 0; */
   min-height: fit-content;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 /** SECTION 1 **/
 
 .section1 {
-  padding: 60px;
+  padding: 70px;
   background-image: url('../../assets/Screenshot 2024-04-29 130407.png');
   background-repeat: no-repeat;
   background-size: cover;
