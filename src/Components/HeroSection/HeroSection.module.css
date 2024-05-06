@@ -82,19 +82,21 @@
   scale: 1.8;
   transition: 0.5s;
   color: black;
+
 }
 
 .platforms-div>span:nth-child(2):hover {
-  color: #1877F2;
+  color: #0e76a8;
 }
 
 .platforms-div>span:nth-child(3):hover {
-  color: #3498DB;
+  color: #25D366
 }
 
 .platforms-div>span:nth-child(4):hover {
-  color: #25D366
+  color: #3498DB
 }
+
 .platforms-div>span:nth-child(5):hover {
   color: #e06969;
 }

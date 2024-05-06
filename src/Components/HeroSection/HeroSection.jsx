@@ -1,6 +1,6 @@
 import styles from './HeroSection.module.css'
 import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaRegHandPeace } from "react-icons/fa6";
@@ -26,9 +26,9 @@ function HeroSection() {
             <h3>Check out my projects below</h3>
             <div className={styles['platforms-div']}>
               <span> <a href="https://github.com/GiuranRadu" target="_blank"><FaGithub /></a> </span>
-              <span> <a href="https://www.facebook.com/Giuran/" target="_blank"><FaFacebook /></a> </span>
-              <span> <a href="https://discord.com/channels/giuran.radu#5167" target="_blank"><FaDiscord /></a> </span>
+              <span> <a href="https://www.linkedin.com/in/radu-giuran-38246419b/" target="_blank"><FaLinkedin /></a></span>
               <span> <a href="https://wa.me/+40722751363" target="_blank">< FaWhatsapp /></a> </span>
+              <span> <a href="https://discord.com/channels/giuran.radu#5167" target="_blank"><FaDiscord /></a> </span>
               <span> <a href={resume} download='cv-giuran-radu' ><TbFileCv /></a> </span>
             </div>
           </div>
