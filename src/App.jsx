@@ -9,19 +9,15 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     errorElement: <PageNotFound/>,
     children: [
-      { path: '/', element: <DashBoard /> },
-      
+      { path: '/', element: <DashBoard /> },      
     ]
   }
 ])
 
 
 function App() {
-
   return (
-
     <RouterProvider router={router} />
-
   )
 }
 
