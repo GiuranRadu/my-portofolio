@@ -76,6 +76,7 @@
   bottom: 8px;
   font-size: 12px;
   line-height: 20px;
+  z-index: 1;
 }
 
 .email-and-pass>span {
