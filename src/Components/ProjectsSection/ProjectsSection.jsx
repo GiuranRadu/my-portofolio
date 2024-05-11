@@ -49,6 +49,10 @@ function ProjectsSection() {
         <div className={styles['project-description-div']}>
           <h1>Ur-Physique</h1>
           <p>An app that allows you to keep track of your sporting life, including the calories you burn. You can also upload photos of your activities. Feel free to register or try the given credentials below ↓ </p>
+          <div className={styles['images-div-hidden-for-big-screen']}>
+            <img src={ur_physique_phone_pic} alt="" />
+            <img src={ur_physique_pc_pic} alt="" />
+          </div>
           <div className={styles['technologies-used-div']}>
             <div className={styles['frontend-tech']}>
               <span>Html</span>
@@ -85,6 +89,10 @@ function ProjectsSection() {
         <div className={styles['project-description-div']}>
           <h1>Formula 1</h1>
           <p>This app is designed for F1 pilots. You can register and select circuits you&apos;ve participated in. Keep track of your completion time, and at the end, see who is the best! Feel free to register or try the given credentials below ↓ </p>
+          <div className={styles['images-div-hidden-for-big-screen']}>
+            <img src={f1_phone_pic} alt="" />
+            <img src={f1_pc_pic} alt="" />
+          </div>
           <div className={styles['technologies-used-div']}>
             <div className={styles['frontend-tech']}>
               <span>Html</span>
@@ -109,6 +117,7 @@ function ProjectsSection() {
         </div>
       </div>
 
+
       <div className={styles['project']}>
         <img src={react_logo} alt="react logo" className={styles['tech-logo-img']} />
         <div className={styles['pc-image-div']}>
@@ -118,6 +127,10 @@ function ProjectsSection() {
         <div className={styles['project-description-div']}>
           <h1>Z-Animals</h1>
           <p>This app is for people who love nature, animals, and all kinds of habitats. It&apos;s also linked to an external API that loads more information about the animal you are curious about.</p>
+          <div className={styles['images-div-hidden-for-big-screen']}>
+            <img src={z_animals_phone_pic} alt="" />
+            <img src={z_animals_pc_pic} alt="" />
+          </div>
           <div className={styles['technologies-used-div']}>
             <div className={styles['frontend-tech']}>
               <span>Html</span>
@@ -152,6 +165,10 @@ function ProjectsSection() {
         <div className={styles['project-description-div']}>
           <h1>X-Games</h1>
           <p>Browse through our extensive catalog featuring the latest releases as well as timeless favorites. You can add to cart, add to favorites, create orders, and select payment methods, then send the order to a Database. Feel free to register or try the given credentials below ↓ </p>
+          <div className={styles['images-div-hidden-for-big-screen']}>
+            <img src={x_games_phone_pic} alt="" />
+            <img src={x_games_pc_pic} alt="" />
+          </div>
           <div className={styles['technologies-used-div']}>
             <div className={styles['frontend-tech']}>
               <span>Html</span>

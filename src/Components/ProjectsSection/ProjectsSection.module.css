@@ -168,6 +168,16 @@
   width: 70%;
 }
 
+
+.images-div-hidden-for-big-screen {
+  height: 100px;
+  display: none;
+}
+
+.images-div-hidden-for-big-screen>img {
+  height: 100%;
+}
+
 @media(max-width:1150px) {
   .project {
     height: 370px;
@@ -189,8 +199,9 @@
   }
 
   .project {
-    height: 350px;
+    min-height: 520px;
     flex-direction: column;
+
   }
 
   .project-description-div {
@@ -201,6 +212,12 @@
   .pc-image-div,
   .phone-image-div {
     display: none;
+  }
+
+  .images-div-hidden-for-big-screen {
+    display: flex;
+    align-items: center;
+    justify-content: ce;
   }
 
   .live-demo-btn,
@@ -219,9 +236,7 @@
     width: 40px;
   }
 
-  .project {
-    height: 370px;
-  }
+
 
   .project-description-div {
     padding-bottom: 50px;
@@ -236,8 +251,9 @@
   }
 
   .project-description-div>p {
-    height: 40%;
+    height: fit-content;
     font-size: 14px;
+    padding-bottom: 20px;
   }
 
   .buttons-div {
@@ -256,15 +272,14 @@
 
   .projects-div {
     padding: 10px 0 0 0;
+   
   }
 
   .projects-div>h1 {
     margin-left: 20px;
     margin-bottom: 50px;
-
     width: fit-content;
   }
-
 
   .project-description-div>p {
     padding-top: 15px;
@@ -283,7 +298,11 @@
     border-radius: 2px;
     font-size: 10px;
     margin-right: 5px;
+  }
 
-
+  .technologies-used-div {
+    height: 20%;
+    justify-content: center;
+    gap: 5px
   }
 }
