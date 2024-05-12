@@ -216,7 +216,8 @@
   .images-div-hidden-for-big-screen {
     display: flex;
     align-items: center;
-    justify-content: ce;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
   }
 
   .live-demo-btn,
