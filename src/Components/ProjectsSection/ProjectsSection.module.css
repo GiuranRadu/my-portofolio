@@ -89,32 +89,37 @@
 
 
 .technologies-used-div {
-  height: 30%;
-  /* background-color: blue; */
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 5px
+}
+
+.frontend-tech,
+.backend-tech {
+  display: flex;
+  gap: 10px
 }
 
 .frontend-tech>span,
 .backend-tech>span {
-  padding: 4px 8px;
+  padding: 2px 8px;
   border-radius: 4px;
   width: max-content;
   font-size: 12px;
   color: var(--grey-brand);
   font-weight: bold;
-  margin-right: 10px;
   background-color: white;
 }
 
 .frontend-tech>span {
-  border: 3px solid var(--orange-brand);
+  border: 2px solid var(--orange-brand);
 }
 
 .backend-tech>span {
-  border: 3px solid #4f6d81;
+  border: 2px solid #4f6d81;
 }
 
 .live-demo-btn,
@@ -255,13 +260,11 @@
     padding-bottom: 20px;
   }
 
-  /* .buttons-div {
-    height: fit-content
-  } */
 
   .technologies-used-div {
     justify-content: center;
-    gap: 15px
+    gap: 5px;
+    align-items: center;
   }
 
 }
@@ -269,8 +272,14 @@
 
 @media(max-width:500px) {
 
+
+  .frontend-tech,
+  .backend-tech {
+    gap: 0px
+  }
+
   .projects-div {
-    padding: 10px 0 0 0;   
+    padding: 10px 0 0 0;
   }
 
   .project {
@@ -309,11 +318,11 @@
     gap: 5px
   }
 
-  .email-and-pass {   
-    font-size: 10px;  
+  .email-and-pass {
+    font-size: 10px;
   }
 
-  .email-and-pass>span {   
-    font-size: 10px;  
+  .email-and-pass>span {
+    font-size: 10px;
   }
 }
