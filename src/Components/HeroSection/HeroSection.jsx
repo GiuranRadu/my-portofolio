@@ -14,7 +14,7 @@ import resume from '../../assets/Radu Cv.pdf'
 function HeroSection() {
 
   return (
-    <div className={styles['hero-container']}>    
+    <div className={styles['hero-container']}>
       <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5}>
         <div className={styles['hero-div']} >
           <div className={styles['photo-div']}>
@@ -35,44 +35,48 @@ function HeroSection() {
         </div>
       </Tilt>
 
-      <div className={styles['laptop-div']}>
-        <div className={styles['three-dots']}>
-          <span className=''>a</span>
-          <span>a</span>
-          <span>a</span>
+      <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5}>
+
+        <div className={styles['laptop-div']}>
+          <div className={styles['three-dots']}>
+            <span className=''>a</span>
+            <span>a</span>
+            <span>a</span>
+          </div>
+          <div className={styles['laptop-screen']}>
+            <div>
+              <p> &gt; Radu.currentLocation</p>
+              <span>&#34;Ramnicu Valcea, RO&#34;</span>
+            </div>
+
+            <div>
+              <p> &gt; Radu.contactInfo</p>
+              <span>[ &#34;giuran.radu@yahoo.com&#34; , &#34;0722 751 363&#34; ]</span>
+            </div>
+
+            <div>
+              <p> &gt; Radu.interests</p>
+              <span>[ &#34;coding&#34; , &#34;football&#34; ,  &#34;computer science&#34; , &#34;technology&#34; ]</span>
+            </div>
+
+            <div>
+              <p> &gt; Radu.frontendSkills</p>
+              <span>[ &#34;Html&#34; , &#34;Css&#34; ,  &#34;Sass&#34; , &#34;Tailwind &#34; , &#34;Javascript&#34; ,  &#34;TypeScript&#34; , &#34;Angular&#34; , &#34;RxJS&#34; , &#34;React&#34; ,  &#34;Redux&#34;] </span>
+            </div>
+
+            <div>
+              <p> &gt; Radu.backendSkills</p>
+              <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;MongoDB&#34; ,  &#34;Git&#34; , &#34;Firebase&#34; , &#34;Cloudinary&#34;]</span>
+            </div>
+
+            <div className={styles['flicker']}>
+              <span>|</span>
+            </div>
+
+          </div>
         </div>
-        <div className={styles['laptop-screen']}>
-          <div>
-            <p> &gt; Radu.currentLocation</p>
-            <span>&#34;Ramnicu Valcea, RO&#34;</span>
-          </div>
+      </Tilt>
 
-          <div>
-            <p> &gt; Radu.contactInfo</p>
-            <span>[ &#34;giuran.radu@yahoo.com&#34; , &#34;0722 751 363&#34; ]</span>
-          </div>
-
-          <div>
-            <p> &gt; Radu.interests</p>
-            <span>[ &#34;coding&#34; , &#34;football&#34; ,  &#34;computer science&#34; , &#34;technology&#34; ]</span>
-          </div>
-
-          <div>
-            <p> &gt; Radu.frontendSkills</p>
-            <span>[ &#34;Html&#34; , &#34;Css&#34; ,  &#34;Sass&#34; , &#34;Tailwind &#34; , &#34;Javascript&#34; ,  &#34;TypeScript&#34; , &#34;Angular&#34; , &#34;RxJS&#34; , &#34;React&#34; ,  &#34;Redux&#34;] </span>
-          </div>
-
-          <div>
-            <p> &gt; Radu.backendSkills</p>
-            <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;MongoDB&#34; ,  &#34;Git&#34; , &#34;Firebase&#34; , &#34;Cloudinary&#34;]</span>
-          </div>
-
-          <div className={styles['flicker']}>
-            <span>|</span>
-          </div>
-
-        </div>
-      </div>
 
 
     </div>
