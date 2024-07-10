@@ -36,8 +36,8 @@ function ProjectsSection() {
 
   return (
     <div className={styles['projects-div']}>
+      <p className={styles['announcement']}>Please note that these are free hosted applications and may take up to <span>30 seconds</span> to load after you access this page. All projects are up-to-date and fully functional. Thank you for your patience.</p>
       <h1>Projects  </h1>
-
       <div className={styles['project']}>
         <img src={react_logo} alt="react logo" className={styles['tech-logo-img']} />
         <p className={styles['email-and-pass']}>Credentials for testing purposes <span>guest@mail.com</span> <span>guest123#</span></p>
