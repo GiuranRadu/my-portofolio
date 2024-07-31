@@ -46,7 +46,7 @@ function HeroSection() {
           <div className={styles['laptop-screen']}>
             <div>
               <p> &gt; Radu.currentLocation</p>
-              <span>&#34;Ramnicu Valcea, RO&#34;</span>
+              <span>&#34;Bucharest, RO&#34;</span>
             </div>
 
             <div>
