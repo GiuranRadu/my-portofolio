@@ -47,8 +47,6 @@ const backendLogos = [
 ]
 
 
-
-
 function SkillsSections() {
 
   return (
