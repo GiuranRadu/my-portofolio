@@ -61,12 +61,21 @@ function HeroSection() {
 
             <div>
               <p> &gt; Radu.frontendSkills</p>
-              <span>[ &#34;Html&#34; , &#34;Css&#34; ,  &#34;Sass&#34; , &#34;Tailwind &#34; , &#34;Javascript&#34; ,  &#34;TypeScript&#34; , &#34;Angular&#34; , &#34;RxJS&#34; , &#34;React&#34; ,  &#34;Redux&#34;] </span>
+              <span>[&#34;React&#34; , &#34;Redux Toolkit&#34; , &#34;Angular&#34; , &#34;RxJS&#34; ,  &#34;HTML&#34; , &#34;CSS&#34; ,  &#34;Bootstrap&#34; , &#34;Tailwind &#34; , &#34;JavaScript&#34; ,  &#34;TypeScript&#34; ] </span>
             </div>
 
             <div>
               <p> &gt; Radu.backendSkills</p>
-              <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;MongoDB&#34; ,  &#34;Git&#34; , &#34;Firebase&#34; , &#34;Cloudinary&#34;]</span>
+              <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;PHP + Smarty&#34;]</span>
+            </div>
+
+            <div>
+              <p> &gt; Radu.databases</p>
+              <span>[ &#34;MongoDB&#34; , &#34;MySQL&#34; , &#34;Firebase&#34;]</span>
+            </div>
+            <div>
+              <p> &gt; Radu.others</p>
+              <span>[  &#34;PrestaShop&#34; ,  &#34;Git&#34; , &#34;Postman&#34;]</span>
             </div>
 
             <div className={styles['flicker']}>

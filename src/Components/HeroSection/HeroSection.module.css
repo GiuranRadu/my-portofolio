@@ -103,7 +103,7 @@
 
 
 .laptop-div {
-  height: 450px;
+  height: fit-content;
   width: 900px;
   margin-top: 60px;
   border-radius: 10px;
@@ -112,7 +112,7 @@
 }
 
 .three-dots {
-  height: 9%;
+  height: 40px;
   background-color: rgb(197, 197, 197);
   padding: 0 18px;
   display: flex;
@@ -142,8 +142,7 @@
 
 
 
-.laptop-screen {
-  height: 91%;
+.laptop-screen { 
   background-color: #314452d1;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
