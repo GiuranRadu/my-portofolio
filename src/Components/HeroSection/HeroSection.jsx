@@ -8,7 +8,7 @@ import { TbFileCv } from "react-icons/tb";
 import myPhoto from '../../assets/myPhoto.jpg'
 import Tilt from 'react-parallax-tilt'
 
-import resume from '../../assets/Radu Cv.pdf'
+import resume from '../../assets/Radu Giuran CV.pdf'
 
 
 function HeroSection() {
@@ -75,7 +75,7 @@ function HeroSection() {
             </div>
             <div>
               <p> &gt; Radu.others</p>
-              <span>[  &#34;PrestaShop&#34; ,  &#34;Git&#34; , &#34;Postman&#34;]</span>
+              <span>[  &#34;PrestaShop&#34; ,  &#34;Git&#34; , &#34;Postman&#34;, &#34;Confluence&#34;, &#34;Jira&#34;] </span>
             </div>
 
             <div className={styles['flicker']}>
