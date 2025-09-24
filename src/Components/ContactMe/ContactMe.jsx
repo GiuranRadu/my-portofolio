@@ -3,8 +3,12 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { PiReadCvLogoFill } from "react-icons/pi";
+
 import pc_pic from '../../assets/hero3.jpeg'
 import Tilt from 'react-parallax-tilt'
+import resume from '../../assets/Radu Giuran CV.pdf'
+
 
 
 function ContactMe() {
@@ -53,6 +57,19 @@ function ContactMe() {
             <div className={styles['text-div']}>
               <h1>Whatsapp</h1>
               <p onClick={goToWhatsapp} className={styles['go-to-whatsapp']}>Click me <FaExternalLinkAlt /></p>
+            </div>
+          </div>
+
+          <div className={styles['info']}>
+            <div className={styles['icon-div']}>
+              <span>
+                <PiReadCvLogoFill />
+              </span>
+            </div>
+            <div className={styles['text-div']}>
+              <h1>Get My Resume</h1>
+              <p> <a href={resume} download='cv-giuran-radu' >Download <FaExternalLinkAlt /></a></p>
+
             </div>
           </div>
         </div>

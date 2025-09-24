@@ -28,7 +28,7 @@
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   color: var(--light-brand);
 }
 
@@ -57,7 +57,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .text-div>p {
