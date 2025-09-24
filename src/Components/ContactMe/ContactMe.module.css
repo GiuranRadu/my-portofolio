@@ -2,9 +2,9 @@
   padding: 40px 100px 150px 100px;
   display: flex;
   flex-direction: column;
-  min-height: inherit ;
+  min-height: inherit;
   height: fit-content;
-  
+
 }
 
 .contact-me-container>h1 {
@@ -108,24 +108,24 @@
 
 @media(max-width:1100px) {
   .contact-me-container {
-    padding: 40px 20px;   
+    padding: 40px 20px;
   }
 
   .my-picture-container {
     display: none;
   }
 
-  .contact-details{
+  .contact-details {
     width: 100%;
     justify-content: center;
   }
-  
+
 }
 
 
 @media(max-width:900px) {
   .contact-me-container {
-    padding: 50px ;    
+    padding: 50px;
   }
 
 
@@ -139,17 +139,17 @@
     width: 100%;
   }
 
-  
-.text-div {
-  margin-left: 30px;
- 
-}
+
+  .text-div {
+    margin-left: 30px;
+
+  }
 }
 
 
 @media(max-width:500px) {
 
-  .contact-me-container{
+  .contact-me-container {
     padding: 20px 0;
 
   }
@@ -159,10 +159,10 @@
     width: fit-content;
   }
 
-  .info{
+  .info {
     width: 80%;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
 
@@ -173,11 +173,16 @@
 
   .icon-div {
     min-width: 50px;
-    height: 50px;    
-    border: 2px solid var(--orange-brand);    
+    height: 50px;
+    border: 2px solid var(--orange-brand);
   }
 
   .icon-div>span {
     font-size: 18px;
   }
+
+  .text-div h1 {
+    font-size: 22px;
+  }
+
 }
