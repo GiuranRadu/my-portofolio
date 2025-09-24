@@ -15,10 +15,10 @@ import nodeJs_logo from '../../assets/Tech logos/nodejs.png'
 import expressJs_logo from '../../assets/Tech logos/expressJS.png'
 import mongoDB_logo from '../../assets/Tech logos/mongodb-logo.png'
 import firebase_logo from '../../assets/Tech logos/firebase.png'
-import cloudinary_logo from '../../assets/Tech logos/cloudinary.png'
+
 import git_logo from '../../assets/Tech logos/git.png'
 import postman_logo from '../../assets/Tech logos/postman.webp'
-
+import my_sql from '../../assets/Tech logos/mySql.png'
 import { RevealLeft, RevealRight } from '../../Utils/Reveal'
 
 
@@ -29,7 +29,6 @@ const frontendLogos = [
   { pic: scss_logo, name: "Scss" },
   { pic: tailwind_logo, name: "Tailwind" },
   { pic: angular_logo, name: "Angular" },
-  { pic: rxjs_logo, name: "RxJs" },
   { pic: typescript_logo, name: "TypeScript" },
   { pic: react_logo, name: "React" },
   { pic: react_router_logo, name: "React Router" },
@@ -39,11 +38,11 @@ const frontendLogos = [
 const backendLogos = [
   { pic: nodeJs_logo, name: "NodeJs" },
   { pic: expressJs_logo, name: "ExpressJs" },
-  { pic: mongoDB_logo, name: "MongoDB" },
+  { pic: git_logo, name: "Git" },
   { pic: postman_logo, name: "Postman" },
   { pic: firebase_logo, name: "Firebase" },
-  { pic: cloudinary_logo, name: "Cloudinary" },
-  { pic: git_logo, name: "Git" },
+  { pic: my_sql, name: "MySQL" },
+  { pic: mongoDB_logo, name: "MongoDB" },
 ]
 
 

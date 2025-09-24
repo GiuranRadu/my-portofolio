@@ -43,7 +43,7 @@
   background-image: url('../../assets/Screenshot 2024-04-29 130407.png');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 60px);
   height: fit-content;
 }
 

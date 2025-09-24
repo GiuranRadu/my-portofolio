@@ -54,14 +54,10 @@ function HeroSection() {
               <span>[ &#34;giuran.radu@yahoo.com&#34; , &#34;0722 751 363&#34; ]</span>
             </div>
 
-            <div>
-              <p> &gt; Radu.interests</p>
-              <span>[ &#34;coding&#34; , &#34;football&#34; ,  &#34;computer science&#34; , &#34;technology&#34; ]</span>
-            </div>
 
             <div>
               <p> &gt; Radu.frontendSkills</p>
-              <span>[&#34;React&#34; , &#34;Redux Toolkit&#34; , &#34;Angular&#34; , &#34;RxJS&#34; ,  &#34;HTML&#34; , &#34;CSS&#34; ,  &#34;Bootstrap&#34; , &#34;Tailwind &#34; , &#34;JavaScript&#34; ,  &#34;TypeScript&#34; ] </span>
+              <span>[&#34;React&#34; , &#34;Redux Toolkit&#34; , &#34;Angular&#34; , &#34;JavaScript&#34; ,  &#34;TypeScript&#34; ,  &#34;HTML&#34; , &#34;CSS&#34; ,  &#34;Bootstrap&#34; , &#34;Tailwind &#34;  ] </span>
             </div>
 
             <div>
@@ -74,10 +70,13 @@ function HeroSection() {
               <span>[ &#34;MongoDB&#34; , &#34;MySQL&#34; , &#34;Firebase&#34;]</span>
             </div>
             <div>
-              <p> &gt; Radu.others</p>
-              <span>[  &#34;PrestaShop&#34; ,  &#34;Git&#34; , &#34;Postman&#34;, &#34;Confluence&#34;, &#34;Jira&#34;] </span>
+              <p> &gt; tooling & versioning & others</p>
+              <span>[ &#34;Git&#34; , &#34;Postman&#34;, &#34;Confluence&#34;, &#34;Jira&#34;, &#34;PrestaShop&#34;] </span>
             </div>
-
+            <div>
+              <p> &gt; Radu.interests</p>
+              <span>[ &#34;coding&#34; , &#34;football&#34; ,  &#34;computer science&#34; , &#34;technology&#34; ]</span>
+            </div>
             <div className={styles['flicker']}>
               <span>|</span>
             </div>

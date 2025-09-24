@@ -1,5 +1,6 @@
 .projects-div {
-  padding: 10px 100px 0px 100px;
+  padding: 10px 100px 50px 100px;
+  background-color: #d0d6da;
 }
 
 .projects-div>h1 {
@@ -31,7 +32,7 @@
   height: 370px;
   width: 1000px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   display: flex;
   border-radius: 10px;
   /* background-color: beige; */

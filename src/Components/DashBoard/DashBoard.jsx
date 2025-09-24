@@ -4,6 +4,8 @@ import HeroSection from '../HeroSection/HeroSection';
 import ProjectsSection from '../ProjectsSection/ProjectsSection';
 import SkillsSections from '../SkillsSection/SkillsSections';
 import ContactMe from '../ContactMe/ContactMe';
+import WorkExperience from '../WorkExperience/WorkExperience';
+
 
 function DashBoard() {
 
@@ -13,6 +15,9 @@ function DashBoard() {
       <div className={styles['dashboard-container']}>
         <section id="section1" className={styles.section1}>
           <HeroSection />
+        </section>
+        <section id='section5' className={styles.section5}>
+          <WorkExperience/>
         </section>
         <section id="section2" className={styles.section2}>
           <ProjectsSection />
