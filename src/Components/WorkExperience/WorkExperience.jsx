@@ -1,6 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import styles from './WorkExperience.module.css'
 
+import SECRET_CODE_LOGO from '../../assets/secretcode_logo.jpg'
+import NEWTECH_LOGO from '../../assets/newtech_logo.jpg'
+import HUNTING_LOGO from '../../assets/huntingstore_logo.jpg'
+
 // Hook simplu pentru vizibilitate
 function useInView(threshold = 0.99) {
   const ref = useRef(null)
@@ -56,7 +60,7 @@ const WorkExperience = () => {
               </div>
             </div>
             <div className={`${styles['employer-logo-container']} ${visible1 ? styles.active : ''}`}>
-              <img src="/src/assets/secretcode_logo.jpg" alt="Secret Code logo" />
+              <img src={SECRET_CODE_LOGO} alt="Secret Code logo" />
             </div>
             <div className={styles['years-range']}>
               <h2>May 2024 - January 2025</h2>
@@ -90,7 +94,7 @@ const WorkExperience = () => {
               </div>
             </div>
             <div className={`${styles['employer-logo-container']} ${visible2 ? styles.active : ''}`}>
-              <img src="/src/assets/newtech_logo.jpg" alt="NewTech Academy logo" />
+              <img src={NEWTECH_LOGO} alt="NewTech Academy logo" />
             </div>
             <div className={styles['years-range']}>
               <h2>October 2023 - Present</h2>
@@ -127,7 +131,7 @@ const WorkExperience = () => {
               </div>
             </div>
             <div className={`${styles['employer-logo-container']} ${visible3 ? styles.active : ''}`}>
-              <img src="/src/assets/huntingstore_logo.jpg" alt="Hunting Store logo" />
+              <img src={HUNTING_LOGO} alt="Hunting Store logo" />
             </div>
             <div className={styles['years-range']}>
               <h2>January 2025 - Present</h2>
