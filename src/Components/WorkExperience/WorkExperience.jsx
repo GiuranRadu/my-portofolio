@@ -43,7 +43,7 @@ const WorkExperience = () => {
             <div className={styles['work-card--item']}>
               <div className={styles['work-card--item--content']}>
                 <div className={styles['arrow-head']}></div>
-                <h3><em>Full-Stack Developer & Administrator</em></h3>
+                <h3><em>Full-Stack Developer & Web Administrator</em></h3>
                 <hr />
                 <h4 className={styles['employer-title']}>Hunting Store (SC Poli Gun SRL)</h4>
                 <ul className={styles['job-bullets']}>
