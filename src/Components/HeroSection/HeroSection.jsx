@@ -57,12 +57,12 @@ function HeroSection() {
 
             <div>
               <p> &gt; Radu.frontendSkills</p>
-              <span>[&#34;React&#34; , &#34;Redux Toolkit&#34; , &#34;Angular&#34; , &#34;JavaScript&#34; ,  &#34;TypeScript&#34; ,  &#34;HTML&#34; , &#34;CSS&#34; ,  &#34;Bootstrap&#34; , &#34;Tailwind &#34;  ] </span>
+              <span>[&#34;React&#34; ,  &#34;Angular&#34; , &#34;Redux Toolkit&#34; , &#34;JavaScript&#34; ,  &#34;TypeScript&#34; ,  &#34;HTML&#34; , &#34;CSS&#34; ,  &#34;Bootstrap&#34; , &#34;Tailwind &#34;  ] </span>
             </div>
 
             <div>
               <p> &gt; Radu.backendSkills</p>
-              <span>[ &#34;Node.js&#34; , &#34;Express.js&#34; ,  &#34;PHP + Smarty&#34;]</span>
+              <span>[ &#34;Node.js + Express.js&#34;, &#34;Python + Django REST Framework&#34; , &#34;PHP + Smarty&#34;]</span>
             </div>
 
             <div>
