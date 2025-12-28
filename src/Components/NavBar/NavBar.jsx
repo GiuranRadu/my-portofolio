@@ -20,9 +20,9 @@ const Navbar = () => {
           <li className='nav-item'>
             <Link to="section5" spy={true} smooth={true} offset={-71} duration={1000}>Experience</Link>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link to="section2" spy={true} smooth={true} offset={-68} duration={1000}>Projects</Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link to="section3" spy={true} smooth={true} offset={-66} duration={1000}>Skills</Link>
           </li>

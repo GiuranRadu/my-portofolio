@@ -1,5 +1,5 @@
 .skills-container {
-  padding: 20px 100px;
+  padding: 20px 100px 100px 100px;
   height: inherit;
   display: flex;
   flex-direction: column;
@@ -16,24 +16,25 @@
 }
 
 
-.frontend-skills {
+.skills-section {
   height: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 50px;
+  padding: 40px;
   width: 100%;
 }
 
-.frontend-skills>div {
+.skills-section>div {
   display: flex;
 }
 
-.frontend-skills>h1,
-.backend-skills>h1 {
+.skills-section>h1 {
   color: var(--grey-brand);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  font-size: 28px;
+  font-style: italic;
 }
 
 .skill {
@@ -52,26 +53,14 @@
 }
 
 .skill>p {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
 }
 
 
-.backend-skills {
-  height: 30%;
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 50px;
 
-}
 
-.backend-skills>div {
-  display: flex;
-}
 
 
 @media(max-width:1200px) {
@@ -89,8 +78,7 @@
     margin-bottom: 10px;
   }
 
-  .frontend-skills,
-  .backend-skills1 {
+  .skills-section {
     padding: 50px 0;
   }
 }
@@ -124,7 +112,7 @@
 
 @media(max-width:700px) {
 
-  .frontend-skills {
+  .skills-section {
     padding: 0;
     margin: 20px 0 ;
   }
@@ -135,21 +123,12 @@
     height: fit-content;
   }
 
-  .frontend-skills>div {
+  .skills-section>div {
     width: 400px;
     height: fit-content;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-
-  .backend-skills>div {
-    width: 300px;
-    height: fit-content;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-
   }
 }
 
@@ -171,17 +150,13 @@
 
 
 
-  .frontend-skills {
+  .skills-section {
     padding: 0;
-    margin: 0px 0 20px 0;
+    margin: 10px 0 40px 0;
     height: fit-content;
   }
 
-  .backend-skills {
-    padding: 0;
-    margin: 20px 0 0px 0;
-    height: fit-content;
-  }
+
 
   .skills-container>h1 {
     margin-left: 20px;
@@ -189,13 +164,10 @@
   }
 
 
-  .frontend-skills>div {
-    width: 280px;
+  .skills-section>div {
+    width: 90%;
     gap: 10px;
   }
 
-  .backend-skills>div {
-    width: 270px;
-    gap: 10px;
-  }
+
 }

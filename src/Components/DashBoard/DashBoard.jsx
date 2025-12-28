@@ -19,9 +19,9 @@ function DashBoard() {
         <section id='section5' className={styles.section5}>
           <WorkExperience/>
         </section>
-        <section id="section2" className={styles.section2}>
+        {/* <section id="section2" className={styles.section2}>
           <ProjectsSection />
-        </section>
+        </section> */}
         <section id="section3" className={styles.section3}>
           <SkillsSections />
         </section>
